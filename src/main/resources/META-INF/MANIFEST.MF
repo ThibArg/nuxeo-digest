@@ -1,0 +1,13 @@
+Manifest-Version: 1.0
+Bundle-Vendor: Nuxeo
+Bundle-ActivationPolicy: lazy
+Bundle-ClassPath: .
+Bundle-Version: 1.0.qualifier
+Bundle-Name: nuxeo-digest
+Bundle-ManifestVersion: 2
+Nuxeo-Component: OSGI-INF/extensions/org.nuxeo.utils.GetStringDigest.x
+ ml,OSGI-INF/extensions/org.nuxeo.utils.GetBlobDigest.xml,OSGI-INF/ext
+ ensions/org.nuxeo.utils.GetBlobMD5.xml
+Bundle-SymbolicName: nuxeo-digest
+Bundle-RequiredExecutionEnvironment: JavaSE-1.7
+

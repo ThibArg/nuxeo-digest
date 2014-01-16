@@ -1,0 +1,8 @@
+<component name="org.nuxeo.utils.GetBlobMD5">
+
+  <extension target="org.nuxeo.ecm.core.operation.OperationServiceComponent"
+    point="operations" >
+      <operation class="org.nuxeo.utils.GetBlobMD5" />
+   </extension>
+    
+</component>
