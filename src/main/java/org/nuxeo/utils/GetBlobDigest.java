@@ -40,7 +40,7 @@ public class GetBlobDigest {
     @Context
     protected OperationContext ctx;
 
-    @Param(name = "digestKind", required = false)
+    @Param(name = "digestKind", required = true, widget = Constants.W_OPTION, values = {"md5", "sha", "sha256", "sha384", "sha512"})
     protected String digestKind;
 
     @Param(name = "contextVarName", required = true)
