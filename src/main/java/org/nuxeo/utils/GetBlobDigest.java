@@ -32,7 +32,7 @@ import org.nuxeo.ecm.core.api.Blob;
 /**
  * @author Thibaud Arguillere
  */
-@Operation(id=GetBlobDigest.ID, category=Constants.CAT_BLOB, label="Get Blob Digest", description="Calculate the digestKink digest (default is md5) of the file, and put the result in the contextVarName String variable.")
+@Operation(id=GetBlobDigest.ID, category=Constants.CAT_BLOB, label="Get Blob Digest", description="Calculate the <code>digestKind</code> digest (default is md5) of the blob, and put the result in the <code>contextVarName</code> Context variable.")
 public class GetBlobDigest {
 
     public static final String ID = "GetBlobDigest";

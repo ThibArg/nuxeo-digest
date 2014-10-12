@@ -32,7 +32,7 @@ import org.nuxeo.ecm.core.api.Blob;
 /**
  * @author Thibaud Arguillere
  */
-@Operation(id=GetBlobMD5.ID, category=Constants.CAT_BLOB, label="Get Blob MD5", description="Put in the contextVarName String variable the MD5 hash of the file. If getSavedDigest is true, the operation returns the existing hash (it does not calculate a new one)")
+@Operation(id=GetBlobMD5.ID, category=Constants.CAT_BLOB, label="Get Blob MD5", description="Put in the <code>contextVarName</code> Context variable the MD5 hash of the file. If <code>getSavedDigest</code> is true, the operation returns the existing hash (it does not calculate a new one)")
 public class GetBlobMD5 {
 
     public static final String ID = "GetBlobMD5";

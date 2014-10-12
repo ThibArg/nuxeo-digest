@@ -31,7 +31,7 @@ import org.nuxeo.ecm.core.api.ClientException;
 /**
  * @author Thibaud Arguillere
  */
-@Operation(id=GetStringDigest.ID, category=Constants.CAT_SERVICES, label="Get String Digest", description="Calculate the digestKink digest (default is md5) of stringToHash, and put the result in the contextVarName String variable.")
+@Operation(id=GetStringDigest.ID, category=Constants.CAT_SERVICES, label="Get String Digest", description="Calculate the <code>digestKind</code> digest (default is md5) of stringToHash, and put the result in the <code>contextVarName</code> Context variable.")
 public class GetStringDigest {
 
     public static final String ID = "GetStringDigest";
